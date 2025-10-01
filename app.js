@@ -5,7 +5,7 @@ const user = "Alice";
 
 // BUG 2: A condição está invertida (deveria ser >= 18)
 const idade = 17;
-if (idade < 18) { 
+if (idade >= 18) {
     console.log("Menor de idade, acesso negado.");
 }
 
