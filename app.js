@@ -11,7 +11,7 @@ if (idade < 18) {
 
 // BUG 3: Falta um ponto e vírgula e a função está errada (deveria ser console.log)
 function exibirMensagem() {
-    print("Bem-vindo" + user) 
+    console.log("Bem-vindo" + user);
 }
 
 exibirMensagem();
