@@ -1,7 +1,7 @@
 // app.js
 
 // BUG 1: A variável está errada (deveria ser 'usuarioLogado')
-const user = "Alice"; 
+const usuarioLogado = "Alice"; 
 
 // BUG 2: A condição está invertida (deveria ser >= 18)
 const idade = 17;
